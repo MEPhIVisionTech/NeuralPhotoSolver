@@ -1,4 +1,4 @@
-package ru.tanexc.photosolver
+package ru.tanexc.photosolver.util
 
 import android.app.Activity
 import android.content.Context

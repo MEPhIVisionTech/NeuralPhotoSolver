@@ -1,4 +1,4 @@
-package ru.tanexc.photosolver
+package ru.tanexc.photosolver.domain
 
 import android.content.Context
 import android.net.Uri

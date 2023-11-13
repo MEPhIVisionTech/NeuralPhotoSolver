@@ -1,4 +1,4 @@
-package ru.tanexc.notegraph.data.di
+package ru.tanexc.photosolver.data.di
 
 import android.content.Context
 import dagger.Module
@@ -6,8 +6,8 @@ import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
-import ru.tanexc.photosolver.ImageHelper
-import ru.tanexc.photosolver.ImageLoader
+import ru.tanexc.photosolver.domain.ImageHelper
+import ru.tanexc.photosolver.domain.ImageLoader
 import javax.inject.Singleton
 
 @Module

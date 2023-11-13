@@ -74,18 +74,38 @@ dependencies {
     implementation("androidx.compose.ui:ui-util:1.6.0-alpha08")
     implementation("androidx.compose.material:material:1.5.4")
 
+    // Accompanist
+    implementation("com.google.accompanist:accompanist-systemuicontroller:0.30.1")
+    implementation("com.google.accompanist:accompanist-flowlayout:0.29.1-alpha")
+    implementation("com.google.accompanist:accompanist-placeholder-material:0.29.1-alpha")
+    implementation("com.google.accompanist:accompanist-pager:0.29.1-alpha")
+    implementation("com.google.accompanist:accompanist-pager-indicators:0.29.1-alpha")
+    implementation("com.google.accompanist:accompanist-adaptive:0.29.1-alpha")
+
+    // Dynamic theme
+    implementation("com.github.t8rin:dynamictheme:1.0.3")
+
+    // Navigation
+    implementation("dev.olshevski.navigation:reimagined:1.5.0")
+    implementation("dev.olshevski.navigation:reimagined-hilt:1.5.0")
+
     // Coroutines
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
 
+    // Preferences DataStore
+    implementation("androidx.datastore:datastore-preferences:1.1.0-alpha06")
+
     // Dagger Hilt
     implementation("com.google.dagger:hilt-android:2.48.1")
-    implementation("com.google.firebase:firebase-database-ktx:20.3.0")
     ksp("com.google.dagger:hilt-android-compiler:2.48")
 
     // Coil
     implementation("io.coil-kt:coil:2.5.0")
     implementation("io.coil-kt:coil-compose:2.5.0")
+
+    // ComposeShadowPlus
+    implementation("com.github.GIGAMOLE:ComposeShadowsPlus:1.0.4")
 
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
 }

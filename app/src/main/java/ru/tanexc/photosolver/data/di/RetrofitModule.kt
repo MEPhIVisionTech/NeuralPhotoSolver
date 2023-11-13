@@ -1,13 +1,13 @@
-package ru.tanexc.photosolver.di
+package ru.tanexc.photosolver.data.di
 
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
 import retrofit2.Retrofit
-import ru.tanexc.photosolver.ImageApi
 import ru.tanexc.photosolver.core.HOST
 import ru.tanexc.photosolver.core.PORT
+import ru.tanexc.photosolver.domain.ImageApi
 import javax.inject.Singleton
 
 @Module
